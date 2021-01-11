@@ -1,0 +1,36 @@
+.footer {
+  height: 80px;
+  display: flex;
+  padding: 32px 0 0 26px;
+  box-sizing: border-box;
+  padding: 0 104px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  color: #B6BCBF;
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__link {
+  padding-left: 28px;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__link:first-child {
+  padding-right: 12px;
+}
+
+.footer__social:first-of-type {
+  padding-left: 28px;
+}
+
+.footer__social-image {
+  width: 20px;
+  height: 20px;
+}
