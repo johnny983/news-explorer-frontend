@@ -1,0 +1,105 @@
+.news {
+  background: #F5F6F7;
+  padding: 80px 104px 64px 104px;
+  text-align: center;
+}
+
+.news__block {
+  padding: 40px 0 0 0;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.news__item {
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  background: #FFF;
+  border-radius: 16px;
+  max-height: 576px;
+  position: relative;
+}
+
+.news__bookmark {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  display: flex;
+}
+
+.news__bookmark_icon {
+  margin: 0 0 0 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  right: 24px;
+  top: 24px;
+  background: #fff url('../images/bookmark.png') no-repeat center center;
+  background-size: 14px 19px;
+}
+
+.news__bookmark_icon:hover {
+  background: #fff url('../images/bookmark_hover.png') no-repeat center center;
+  cursor: pointer;
+}
+
+.news__bookmark_text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.17;
+  border-radius: 8px;
+  background: #fff;
+  height: 40px;
+  max-height: 40px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+.news__content {
+  padding: 24px;
+}
+
+.news__image {
+  width: 400px;
+  border-radius: 16px 16px 0 0;
+}
+
+.news__date {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0 0 20px 0;
+  line-height: 1.33;
+  color: #B6BCBF;
+}
+
+.news__title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  line-height: 1.15;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.news__body {
+  font-size: 16px;
+  line-height: 1.4;
+  max-height: 125px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.news__source {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 700;
+  flex-shrink: 0;
+  color: #B6BCBF;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}

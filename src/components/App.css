@@ -1,0 +1,29 @@
+.title {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0 0 24px 0;
+  line-height: 1.15;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+.show-again {
+  margin-top: 64px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  border: 0;
+  width: 288px;
+  height: 64px;
+  background: #fff;
+  border-radius: 80px;
+}
+
+.show-again:hover {
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
