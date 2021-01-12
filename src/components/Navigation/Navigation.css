@@ -1,0 +1,24 @@
+.header__links {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+}
+
+.header__link {
+  margin: 0 32px 0 0;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__link-item {
+  text-decoration: none;
+}
+
+.header__link:last-child {
+  margin: 0;
+}
+
+.header__link_active {
+  border-bottom: solid 3px #fff;
+}

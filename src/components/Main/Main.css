@@ -1,0 +1,8 @@
+.main {
+  box-sizing: border-box;
+}
+
+.main__content {
+  display: flex;
+  padding: 80px 104px 80px 104px;
+}

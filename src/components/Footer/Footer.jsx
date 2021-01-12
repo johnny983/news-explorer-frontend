@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import github from '../images/github.png'
-import facebook from '../images/fb.png'
+import github from '../../images/github.png'
+import facebook from '../../images/fb.png'
 
 
 const Footer = () => {

@@ -1,14 +1,5 @@
-.main {
-  box-sizing: border-box;
-}
-
-.main__content {
-  display: flex;
-  padding: 80px 104px 80px 104px;
-}
-
 .main__avatar {
-  background: url('../images/avatar.png');
+  background: url('../../images/avatar.png');
   width: 464px;
   height: 464px;
   border-radius: 1000px;
