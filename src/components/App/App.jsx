@@ -28,37 +28,14 @@ const App = () => {
           <Main />
           <Footer />
           <PopupWithForm
-            isOpen={isOpen}
             onClose={handleClose}
-            title={'Вход'}
-            name={'signin'}
             buttonTitle={'Войти'}
+            isOpen={isOpen}
+            name={'signin'}
+            title={'Вход'}
             // onUpdateUser={props.handleUpdateUser}
             // onSubmit={handleSubmit}
           >
-          <div className="popup__inputs">
-            <label htmlFor="popup-input-link" className="popup__label">Email</label>
-            <input type="email"
-              // onChange={handleInputChange}
-              className="popup__input"
-              name="popup-input-email"
-              required />
-          </div>
-          <div className="popup__input-error" id="email-input-error">
-            Куку такйо воыдао ововдоы
-          </div>
-
-          <div className="popup__inputs">
-            <label htmlFor="popup-input-password" className="popup__label">Пароль</label>
-            <input type="password"
-              // onChange={handleInputChange}
-              className="popup__input"
-              name="popup-input-password"
-              required />
-          </div>
-          <div className="popup__input-error" id="password-input-error">
-            Куку такйо воыдао ововдоы
-          </div>
           </PopupWithForm>
         </Route>
 

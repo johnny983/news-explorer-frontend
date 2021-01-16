@@ -11,6 +11,9 @@ const NewsCardList = () => {
       <NewsCard />
       <NewsCard />
       <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
     </div>
     <Button className="showmore_button" title={'Показать еще'} />
   </section>

@@ -5,8 +5,9 @@
 }
 
 .news__block {
-  padding: 40px 0 64px 0;
+  padding: 24px 0 64px 0;
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
   justify-content: space-between;
   text-align: left;
