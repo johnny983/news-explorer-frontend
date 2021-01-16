@@ -1,14 +1,23 @@
 import React from 'react';
 import './NewsCard.css';
+import { Link } from 'react-router-dom'
 import image from '../../images/image_08.png'
 
-const NewsCard = () => {
+const NewsCard = (props) => {
+  const textRef = React.useRef('')
+
+  const handleShowText = () => {
+    textRef.current.classList.toggle('hidden')
+  }
+
   return (
   <>
   <figure className="news__item">
     <div className="news__bookmark">
-      <div className="news__bookmark_text hidden">Войдите, чтобы сохранять статьи</div>
-      <div className="news__bookmark_icon"></div>
+      <div className="news__bookmark_text hidden" ref={textRef}>
+        <Link to="/" onClick={props.handleOpen}>Войдите, чтобы сохранять статьи</Link>
+      </div>
+      <div className="news__bookmark_icon" onClick={handleShowText}></div>
     </div>
     <img src={image} alt="какой-то текст" className="news__image" />
     <div className="news__content">

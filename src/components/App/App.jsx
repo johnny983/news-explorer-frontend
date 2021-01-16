@@ -25,7 +25,7 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <Header handleOpen={handleOpen} />
-          <Main />
+          <Main handleOpen={handleOpen} />
           <Footer />
           <PopupWithForm
             onClose={handleClose}

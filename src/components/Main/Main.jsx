@@ -3,10 +3,10 @@ import './Main.css';
 import NewsCardList from '../NewsCardList/NewsCardList'
 import About from '../About/About'
 
-const Main = () => {
+const Main = (props) => {
   return (
     <main className="main">
-      <NewsCardList />
+      <NewsCardList handleOpen={props.handleOpen} />
       <section className="main__content">
         <About />
       </section>
