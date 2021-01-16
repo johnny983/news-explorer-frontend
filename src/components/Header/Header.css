@@ -18,14 +18,12 @@
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
 }
 
 .header__content {
   font-weight: 400;
   padding: 80px 0 0 0;
   width: 545px;
-  color: #fff;
   font-size: 60px;
   line-height: 1.066;
   margin: 0 auto;

@@ -2,17 +2,27 @@
   font-size: 18px;
   font-weight: 500;
   display: flex;
+  height: 100%;
 }
 
 .header__link {
   margin: 0 32px 0 0;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.header__link-item {
+  border-bottom: solid 3px;
+  border-color: transparent;
+  height: calc(100% - 2px);
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-.header__link-item {
-  text-decoration: none;
+.header__link-item_active {
+  border-color: currentColor;
 }
 
 .header__link:last-child {
@@ -21,4 +31,21 @@
 
 .header__link_active {
   border-bottom: solid 3px #fff;
+}
+
+.link-button {
+  border: solid 1px;
+  border-color: currentColor;
+  border-radius: 23px;
+  height: 46px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logout {
+  width: 24px;
+  height: 24px;
+  padding: 2px 0 0 10px;
 }

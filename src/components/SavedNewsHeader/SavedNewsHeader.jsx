@@ -1,22 +1,27 @@
 import React from 'react';
-import Navigation from '../Navigation/Navigation'
+import './SavedNewsHeader.css';
+import Navigation from '../Navigation/Navigation';
+import { NavLink } from "react-router-dom";
 
 
 const SavedNewsHeader = (props) => {
-  props.loggedIn && import("./SavedNewsHeader.css");
-
   return (
-    <header className="headerlogged-in">
+    <header className="savednewsheader">
       <div className="header__top">
-        <div className="header__logo">NewsExplorer</div>
-        <Navigation />
+        <div className="header__logo">
+          <NavLink to="/">NewsExplorer</NavLink>
+        </div>
+        <Navigation loggedIn={props.loggedIn} />
       </div>
-      <div className="header__content">
-        <h1 className="header__title">
-            Что твориться в мире?
-        </h1>
-        <p className="header__subtitle">
-            Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.
+      <div className="savednewsheader__content">
+        <p className="savednewsheader__title">
+            Сохраненные статьи
+        </p>
+        <h2 className="savednewsheader__header">
+            Грета, у вас 5 сохраненных статей
+        </h2>
+        <p className="savednewsheader__keywords">
+            По ключевым словам: <span className="keywords_bold">Природа, тайга и 2-м другим</span>
         </p>
       </div>
     </header>

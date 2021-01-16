@@ -3,12 +3,12 @@ import './Header.css';
 import Navigation from '../Navigation/Navigation'
 import SearchForm from '../SearchForm/SearchForm'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className="header">
       <div className="header__top">
         <div className="header__logo">NewsExplorer</div>
-        <Navigation />
+        <Navigation handleOpen={props.handleOpen}/>
       </div>
       <div className="header__content">
         <h1 className="header__title">

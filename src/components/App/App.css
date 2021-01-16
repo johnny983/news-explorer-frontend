@@ -11,30 +11,7 @@
   display: none;
 }
 
-.show-again {
-  margin-top: 64px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.33;
-  border: 0;
-  width: 288px;
-  height: 64px;
-  background: #fff;
-  border-radius: 80px;
-}
-
-.show-again:hover {
-  background: rgba(255,255,255,0.5);
-  cursor: pointer;
-}
-
-.button {
-  border: solid 1px #fff;
-  border-radius: 23px;
-  height: 46px;
-  padding: 0 20px;
-}
-
 a:link, a:visited {
-  color: #fff;
+  color: currentColor;
+  text-decoration: none;
 }

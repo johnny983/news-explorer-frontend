@@ -1,6 +1,7 @@
 import React from 'react';
 import './NewsCardList.css';
 import NewsCard from '../NewsCard/NewsCard'
+import Button from '../Button/Button';
 
 const NewsCardList = () => {
   return (
@@ -11,7 +12,7 @@ const NewsCardList = () => {
       <NewsCard />
       <NewsCard />
     </div>
-    <button className="show-again">Показать еще</button>
+    <Button className="showmore_button" title={'Показать еще'} />
   </section>
   );
 }
